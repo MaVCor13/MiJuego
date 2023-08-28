@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra Papel Tijeras | Mavi Corte</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Piedra Papel Tijeras</h1>
+        <div id="player-score">Tu Puntaje: 0</div>
+        <div id="computer-score">Puntaje PC: 0</div>
+
+
+        <div id="result">
+            <img id="machine-img" src="img/rock.svg">
+            <div id="start-text">
+                Elige una opción
+            </div>
+            <img id="user-img" src="img/rock.svg">
+        </div>
+
+        <div id="player-section">
+            <label for="player-name">Ingresa tu nombre:</label>
+            <input type="text" id="player-name" required>
+            <button id="start-button">Comenzar juego</button>
+        </div>
+
+        <div id="group-btn">
+            <button id="rock" type="button">
+                <img src="img/rock.svg" alt="Piedra">
+            </button>
+            <button id="paper" type="button">
+                <img src="img/paper.svg" alt="Papel">
+            </button>
+            <button id="scissors" type="button">
+                <img src="img/scissors.svg" alt="Tijeras">
+            </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
